@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f1;
+}
+#regForm{
+    background-color: #ffffff;
+    margin: 100px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+}
+h1{
+    text-align: center;
+}
+input{
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid green;
+}
+input.invalid{
+    background-color: #ffdddd;
+}
+.tab{
+    display: none;
+}
+button{
+    background-color: #04AA6D;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
+#prevBtn{
+    background-color: #bbbbbb;
+}
+.step{
+    height: 17px;
+    width: 17px;
+    margin: 0 2px;
+    background-color: darkblue;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+.step.active{
+    opacity: 1;
+}
+.step.finish{
+    background-color: #04AA6D;
+}
